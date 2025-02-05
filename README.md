@@ -14,6 +14,7 @@
 - **Removing Irrelevant Features:**
 - **Eliminate Duplicate Rows:**
 - **Outlier Detection:**
+- **Data Transformation:** encoding categorical variables
 
 # Data Visualization
 
