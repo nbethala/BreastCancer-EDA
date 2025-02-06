@@ -50,13 +50,21 @@ The dataset includes a variety of features such as the patient's age at diagnosi
      The dataset contains 2000 observations and 10 features
  - **Features:**
      The dataset contains a variety of features, each categorized into different data types, including categorical and numerical variables.
-    Patient_ID: A unique identifier for each patient.
+   
+    Patient_ID: A unique identifier for each patient in numeric values
+   
     Age Range: 30 to 84 (Numeric)
+   
     Marital Status: Single, Married(Categorical)
+   
    Year of Operation: Ranges from 1958 to 1970(Numeric)
+   
    Positive Axillary Nodes (Lymph Nodes): Numeric
+   
    Tumor Size: Numeric ranges from 0.5 to 5.0
+   
    Radiation Therapy, Chemotherapy, Hormone Therapy: Categorical Values
+   
    Survival Status: Numeric 1 (Survived), 2 (Deceased)
 
    --Descriptive statistics Image--
