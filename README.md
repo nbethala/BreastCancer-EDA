@@ -70,10 +70,39 @@ The dataset includes a variety of features such as the patient's age at diagnosi
    --Descriptive statistics Image--
 
 # Data Cleaning and Preprocessing
-- **Handling Missing Values:**
+ Data cleaning is a critical part of the Exploratory Data Analysis (EDA) process. It ensures the dataset is free from errors, inconsistencies, and missing values, which could distort the analysis and model performance.
+ 
+- **Impute missing values:**
+    In this dataset, only the ‘Age’ and the ‘Marital_Status’ columns has missing values.
+     Age: For numerical feature, replace missing values with the mean of the column.
+     Marital Status: For categorical variable, replace missing values with the most frequent value (mode).
+  
 - **Removing Irrelevant Features:**
+    The Patient_ID column, which has no predictive value for the survival status, can be dropped. Removing irrelevant features like Patient_ID helps simplify the dataset and improve model performance by focusing only on meaningful variables. 
+  
 - **Eliminate Duplicate Rows:**
+  The Datasets contained duplicate rows or records. Use drop_duplicates() in Python to identify and remove any duplicated data.
+  
 - **Outlier Detection:**
+  Outliers are data points that deviate significantly from other observations. Identifying and understanding outliers is crucial for a comprehensive analysis, as they can influence statistical measures and provide insights into the diversity and complexity of the underlying medical conditions within the dataset. 
+
+In this dataset, the methods used are box plots, z-scores, or the IQR (Interquartile Range) method to detect outliers. Depending on the analysis outliers can be removed, transformed or kept. 
+
+   #### 1.Box Plots
+    Boxplots provide a visual representation of data distribution and highlight potential outliers by showing the interquartile range (IQR). Data points outside 1.5 times the IQR above Q3 or below Q1 are typically considered outliers.
+
+ In this dataset, the feature Positive_Axillary_Nodes is identified as an outlier.
+ 
+    --BOX PLOT IMAGE --
+
+   #### 2.Z-Scores
+   Outliers are typically defined as data points with a Z-score greater than 3 or less than -3, although this threshold can vary depending on the context.
+
+   #### 3.IQR (Interquartile Range)
+Outliers are data points that fall below the lower bound or above the upper bound.
+Lower Bound: Q1 - 1.5 * IQR
+Upper Bound: Q3 + 1.5 * IQR
+  
 - **Data Transformation:** encoding categorical variables
 
 # Data Visualization
