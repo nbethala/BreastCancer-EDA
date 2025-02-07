@@ -108,7 +108,22 @@ Upper Bound: Q3 + 1.5 * IQR
 # Data Visualization
 
 # Univariate Analysis:
+ Univariate analysis focuses on the examination of a single variable at a time. It's an essential part of Exploratory Data Analysis 
+ (EDA), as it allows to summarize, understand, and explore the underlying characteristics and patterns of individual variables. This 
+  helps in identifying important characteristics, distributions, and potential issues such as outliers or skewness. 
+  
+  **Question:** What is the distribution of positive axillary nodes in the patients?
+  **Analysis:** The distribution seems to be left-skewed, with the mode (most frequent value) located around 0 positive axillary nodes. A few data points extend toward the higher end, reaching up to 50 positive axillary nodes. The left tail of the distribution is longer than the right, indicating that there are more instances with lower numbers of positive axillary nodes compared to those with higher values.
 
+  --Image Distribution of positive axillary node---
+
+    **Question:** What is the distribution of Tumor size in the patients ?
+    **Analysis:** The smallest tumor size is 0.5 mm and the largest tumor size is 5 mm. Majority of tumors appear between 3-5 mm in distribution.    
+The tumor size distribution, as depicted by the boxplot, reveals several key insights into the variability and spread of tumor sizes among the patients.The distribution's wide IQR and long whiskers suggest that while most patients’ tumor sizes are concentrated within a moderate range, there are still substantial differences, indicating diversity in the data. This variability could have important implications for understanding treatment efficacy, prognosis, and individual patient care.
+
+Absence of Outliers: One noteworthy feature is the lack of outliers in the dataset. Outliers are often indicative of rare or extreme cases, and their absence in this case suggests that tumor sizes are relatively consistent across the patient population. This is important for making general conclusions, as it means that there aren’t any data points that deviate drastically from the rest of the group, which could have skewed the analysis or led to misleading interpretations.
+
+ --Image Distribution of Tumor Size---
 
 # Bivariate Analysis:
 
