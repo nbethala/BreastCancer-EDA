@@ -140,6 +140,9 @@ Absence of Outliers: One noteworthy feature is the lack of outliers in the datas
 ---Image of ECDF PLOT ---
 
 # Bivariate Analysis:
+Bivariate analysis is a crucial step in understanding the relationships between pairs of variables. Using scatter plots, line charts, box plots, and heatmaps, you can uncover connections, identify trends, and visualize the distribution of variables. These techniques help in drawing insights from the data, whether you're exploring clinical outcomes, treatment effectiveness, or disease progression. Below is a breakdown of each of the methods to analyze the dataset: 
+
+1. **Correlation Analysis:**
 
 # Multivariate Analysis:
 
