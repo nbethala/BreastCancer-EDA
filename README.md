@@ -156,6 +156,29 @@ Bivariate analysis is a crucial step in understanding the relationships between 
      The 65-70 age group shows a relatively high count accross the years, particularly in the mid 60's. The 30-35 and 80-85 age groups generally have lower counts throughout the observed time period. The years 1964 and 1968 appear to have higher counts accross several age groups compared to 1958,1960 and 1962. This suggests a potential increase in the number of individuals observed during these years. There is a noticeable concentration of higher counts within the 65-70 age during 1960 showing a strong relationship.
 
      --- Bivariate Analysis Heat Map----
+     
+4. **Box Plot:** A box and whisker plot is an effective tool for visualizing the distribution, central tendency, spread, and outliers in a dataset, allowing for a quick understanding of the data's overall characteristics. Lets answer some of the below questions:
+
+**Questions:**
+Plot1: Does the age distribution differ between patients who survived and those who did not? Are there any significant variations in the median age or the range of ages across different survival outcomes?
+
+Plot2: Are there any trends or patterns in the distribution of operation years based on patient survival status? Does the boxplot show any significant differences in the years of operation between patients who survived and those who did not?
+
+Plot3: How does the distribution of positive axillary nodes vary between patients with different survival outcomes? Are there notable differences in the spread of positive axillary nodes between survivors and non-survivors?
+
+**Analysis:** The box plots for patient age and year of operation show similar statistical patterns, indicating that the distribution of these variables may share comparable characteristics. In contrast, the box plot for positive axillary nodes highlights a significant presence of outliers, a typical feature in medical datasets. This is an exploratory analysis, and further testing would be needed to confirm the significance of this observation. 
+
+---- Box Plot 1, 2, 3 Images --
+
+5. **Violin plot:** A violin plot is a data visualization that combines aspects of a box plot and a kernel density plot to provide a more detailed view of the distribution of a dataset.
+
+**Question:**
+Plot1: How does the age distribution differ between patients who survived and those who did not?
+Plot2: What insights can be drawn from the year of operation for patients with varying survival outcomes?
+Plot3: How does the distribution of positive axillary nodes differ between patients with different survival outcomes?
+Plot4: How does the distribution of tumor size differ between patients with varying survival outcomes?
+
+**Analysis:** 
 
 # Multivariate Analysis:
 
