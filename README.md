@@ -103,7 +103,7 @@ Outliers are data points that fall below the lower bound or above the upper boun
 Lower Bound: Q1 - 1.5 * IQR
 Upper Bound: Q3 + 1.5 * IQR
   
-- **Data Transformation:** encoding categorical variables
+- **Data Transformation:** Visualization tools require numerical input, so categorical variables (such as labels, categories, or strings) need to be encoded into a numerical format. There are several methods to encode categorical variables, depending on the nature of the data and the tool being used. Since our data contains ordinal relationship between categories, Label Encoding technique will be used to assign each category a unique integer value.
 
 # Data Visualization
 
@@ -142,7 +142,20 @@ Absence of Outliers: One noteworthy feature is the lack of outliers in the datas
 # Bivariate Analysis:
 Bivariate analysis is a crucial step in understanding the relationships between pairs of variables. Using scatter plots, line charts, box plots, and heatmaps, you can uncover connections, identify trends, and visualize the distribution of variables. These techniques help in drawing insights from the data, whether you're exploring clinical outcomes, treatment effectiveness, or disease progression. Below is a breakdown of each of the methods to analyze the dataset: 
 
-1. **Correlation Analysis:**
+1. **Correlation Heatmap:** Using a correlation heatmap is an effective way to perform bivariate correlation analysis in a dataset.
+      The correlation coefficient can range from -1 (perfect negative correlation) to +1 (perfect positive correlation). A coefficient of 0 indicates no correlation.
+
+**Analysis:** Age and Year of Operation show the strongest positive correlation at 0.05. 
+              Radiotherapy and Survival status show the strongest negative correlation at -0.055
+              Many variables show weak correlations close to zero, indicating little to no linear relationship between them. 
+
+   --Correlation Matrix Image --
+
+  2. **Question:** How many patients in each age group underwent surgery each year? Is there a relationship between age group and operational activities during that time period?
+     **Analysis:** Key observations from the heat map:
+     The 65-70 age group shows a relatively high count accross the years, particularly in the mid 60's. The 30-35 and 80-85 age groups generally have lower counts throughout the observed time period. The years 1964 and 1968 appear to have higher counts accross several age groups compared to 1958,1960 and 1962. This suggests a potential increase in the number of individuals observed during these years. There is a noticeable concentration of higher counts within the 65-70 age during 1960 showing a strong relationship.
+
+     --- Bivariate Analysis Heat Map----
 
 # Multivariate Analysis:
 
