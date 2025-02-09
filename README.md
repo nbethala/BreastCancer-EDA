@@ -39,6 +39,15 @@ The dataset includes a variety of features such as the patient's age at diagnosi
     techniques.
  - **Number of Observations:**
      The dataset contains 2000 observations and 10 features
+
+   |index|Patient\_ID|Age|Marital\_Status|Year of Operation|Positive\_Axillary\_Nodes|Tumor\_Size|Radiation\_Therapy|Chemotherapy|Hormone\_Therapy|Survival\_Status|
+|---|---|---|---|---|---|---|---|---|---|---|
+|0|eca1411e|36|Married|1959|3|1\.7|Yes|Yes|No|2|
+|1|63e3301c|39|Married|1966|0|1\.6|Yes|No|No|2|
+|2|01647916|71|Single|1964|3|3\.1|No|No|No|2|
+|3|07e33840|50|Married|1960|0|3\.0|Yes|No|Yes|1|
+|4|ed75da3f|44|Married|1965|4|2\.6|Yes|No|No|1|
+
  - **Features:**
      The dataset contains a variety of features, each categorized into different data types, including categorical and numerical variables.
    
@@ -58,7 +67,20 @@ The dataset includes a variety of features such as the patient's age at diagnosi
    
    Survival Status: Numeric 1 (Survived), 2 (Deceased)
 
-   --Descriptive statistics Image--
+    |index|Patient\_ID|Age|Marital\_Status|Year of Operation|Positive\_Axillary\_Nodes|Tumor\_Size|Radiation\_Therapy|Chemotherapy|Hormone\_Therapy|Survival\_Status|
+|---|---|---|---|---|---|---|---|---|---|---|
+|count|2000|2000\.0|2000|2000\.0|2000\.0|2000\.0|2000|2000|2000|2000\.0|
+|unique|2000|NaN|2|NaN|NaN|NaN|2|2|2|NaN|
+|top|eca1411e|NaN|Married|NaN|NaN|NaN|Yes|No|No|NaN|
+|freq|1|NaN|1408|NaN|NaN|NaN|1604|1370|1822|NaN|
+|mean|NaN|56\.954|NaN|1963\.442|9\.667|2\.7641|NaN|NaN|NaN|1\.509|
+|std|NaN|15\.447789521499521|NaN|3\.388122738013446|10\.407366027666027|1\.3217014176124111|NaN|NaN|NaN|0\.5000440200732377|
+|min|NaN|30\.0|NaN|1958\.0|0\.0|0\.5|NaN|NaN|NaN|1\.0|
+|25%|NaN|44\.0|NaN|1961\.0|3\.0|1\.6|NaN|NaN|NaN|1\.0|
+|50%|NaN|57\.0|NaN|1963\.0|6\.0|2\.7|NaN|NaN|NaN|2\.0|
+|75%|NaN|70\.0|NaN|1966\.0|13\.0|3\.9|NaN|NaN|NaN|2\.0|
+|max|NaN|83\.0|NaN|1969\.0|52\.0|5\.0|NaN|NaN|NaN|2\.0|
+       
 
 # Data Cleaning and Preprocessing
  Data cleaning is a critical part of the Exploratory Data Analysis (EDA) process. It ensures the dataset is free from errors, inconsistencies, and missing values, which could distort the analysis and model performance.
@@ -84,7 +106,11 @@ In this dataset, the methods used are box plots, z-scores, or the IQR (Interquar
 
  In this dataset, the feature Positive_Axillary_Nodes is identified as an outlier.
  
-    --BOX PLOT IMAGE --
+  ![Boxplot_PositiveAxillaryNodes](https://github.com/user-attachments/assets/6f4be8f0-1087-49a7-9c67-a802c75ddea0)
+
+    
+  ![Boxplot_Tumorsize](https://github.com/user-attachments/assets/ed17a5d1-da63-46d5-9aaa-d6da4b41d35b)
+
 
    #### 2.Z-Scores
    Outliers are typically defined as data points with a Z-score greater than 3 or less than -3, although this threshold can vary depending on the context.
