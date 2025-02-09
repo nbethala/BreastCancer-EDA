@@ -6,17 +6,8 @@
 #### [1.Project Introduction](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#project-introduction)  
 
 #### [2.Data Overview](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#data-overview)         
- - #### [Data Source]()
- - #### [Features]()      
- - #### [Variables]()
-
        
 #### [3.Data Cleaning and Preprocessing](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#data-cleaning-and-preprocessing)
-  - #### [Handling Missing Values]()
-   - #### [Removing Irrelevant Features]()
-   - #### [Eliminate Duplicate Rows]()
-   - #### [Outlier Detection]()
-   - #### [Data Transformation]()
 
 #### [4.Data Visualization](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#data-visualization)
 
@@ -174,12 +165,44 @@ Plot3: How does the distribution of positive axillary nodes vary between patient
 
 **Question:**
 Plot1: How does the age distribution differ between patients who survived and those who did not?
+
 Plot2: What insights can be drawn from the year of operation for patients with varying survival outcomes?
+
 Plot3: How does the distribution of positive axillary nodes differ between patients with different survival outcomes?
+
 Plot4: How does the distribution of tumor size differ between patients with varying survival outcomes?
 
-**Analysis:** 
+**Analysis:** In the violin plot of positive axillary nodes, the distribution is observed to be highly skewed for both the survival/deceased groups. This suggests that for the majority of patients in both groups, the number of positive axillary nodes detected is relatively low. The distribution is right-skewed, it means that most patients in both groups have fewer positive axillary nodes, but there are a smaller number of patients with a much higher number of positive nodes. 
 
+--Violin PLots 4 Images ---
+
+6. **Pair Plot:** We used a pair plot to explore the relationships between variables and to distinguish patterns based on survival status. By color-coding the data points according to whether patients survived or not, we can identify if certain combinations of features are linked to better or worse outcomes. This method provides valuable insights into the complex factors influencing breast cancer survival.
+
+   **Analysis:** The pair plot shows symmetry between the upper and lower halves of the diagonal, meaning the relationships between feature pairs remain the same when the axes are swapped. Therefore, analyzing just one half of the plot provides the same insights as analyzing both.
+
+The diagonal displays kernel density-smoothed histograms, which help us understand the distribution of each feature and identify any patterns, such as skewness or peaks.
+
+A key observation is the significant overlap between feature pairs in the scatter plots. This overlap suggests that the features do not clearly separate the different class labels (e.g., cancer survivors vs. non-survivors), indicating that these features might not be the best for distinguishing between classes.
+
+--Pair Plots Images--
+
+7. **Scatter Plot:** Is there a correlation between Tumor_Size and the number of Positive_Axillary_Nodes?
+
+   **Analysis:** Based on the scatter plot, a higher concentration of patients survived is observed towards the lower end of positive axillary nodes (0-10), suggesting a correlation between fewer positive nodes and better survival rates. The patients deceased are more scattered across the range of positive axillary nodes in the 10-40 range, indicating that a higher number of nodes might be associated with a lower survival rate. For the smaller Tumor sizes (0-2) the survival rate appears higher. There are outliers, particularly with a higher number of positive axillary nodes (above 40), where some patients did survive, indicating that other factors might influence survival outcomes. However, more comprehensive analysis is needed to draw definitive conclusions for healthcare decision-making.
+
+   -- Scatter plot image---
+
+8. **Joint Plot:** The joint plot visualizes the relationship between two features by combining a scatter plot in the center displaying data as points, while the histograms at the top margin and the right margins showing the distribution of the respective features.
+
+   **Question:** Is there a relationship between Age and the positive axillary nodes ?
+
+   **Analysis:** The Histogram at the top displays a uniform distribution of patient ages, with a slight peak around 50-60 age range. The histogram on the right shows a skewed distribuition with most patients having (0-10) positive axillary nodes. The plot reveals that most patients regardless of age tend to have a lower number of nodes. There is a higher density of points clustered near the bottom of the plot (0-10), suggesting that this is a common occurence. There are few outliers indicating data points with higher number of positive nodes even at older ages that warrant further investigation. In summary age does not strongly correlate with the number of positive axillary nodes.
+
+
+9. **Distribution plot:** 
+   
+   
+   
 # Multivariate Analysis:
 
 # Key Findings and Insights:
