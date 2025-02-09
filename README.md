@@ -105,7 +105,7 @@ Upper Bound: Q3 + 1.5 * IQR
   
   **Question:** What is the distribution of positive axillary nodes in the patients?
   
-  **Analysis:** The distribution seems to be left-skewed, with the mode (most frequent value) located around 0 positive axillary nodes. A few data points extend toward the higher end, reaching up to 50 positive axillary nodes. The left tail of the distribution is longer than the right, indicating that there are more instances with lower numbers of positive axillary nodes compared to those with higher values.
+  **Analysis:** The distribution appears to be left skewed indicating that the majority of the observations have a lower number of positive axillary nodes, with fewer observations having high numbers. The curve suggests that lower number of positive nodes are more frequent, with the frequency decreasing as the number of nodes increases. This type of distribution is common in medical data, where a majority of cases fall within a certain range, with fewer cases at the extremes. 
 
   --Image Distribution of positive axillary node---
 
@@ -130,7 +130,7 @@ Absence of Outliers: One noteworthy feature is the lack of outliers in the datas
 
 ---Image of ECDF PLOT ---
 
-# Bivariate Analysis:
+# Bivariate Analysis and Multivariate Analysis 
 Bivariate analysis is a crucial step in understanding the relationships between pairs of variables. Using scatter plots, line charts, box plots, and heatmaps, you can uncover connections, identify trends, and visualize the distribution of variables. These techniques help in drawing insights from the data, whether you're exploring clinical outcomes, treatment effectiveness, or disease progression. Below is a breakdown of each of the methods to analyze the dataset: 
 
 1. **Correlation Heatmap:** Using a correlation heatmap is an effective way to perform bivariate correlation analysis in a dataset.
@@ -199,17 +199,25 @@ A key observation is the significant overlap between feature pairs in the scatte
    **Analysis:** The Histogram at the top displays a uniform distribution of patient ages, with a slight peak around 50-60 age range. The histogram on the right shows a skewed distribuition with most patients having (0-10) positive axillary nodes. The plot reveals that most patients regardless of age tend to have a lower number of nodes. There is a higher density of points clustered near the bottom of the plot (0-10), suggesting that this is a common occurence. There are few outliers indicating data points with higher number of positive nodes even at older ages that warrant further investigation. In summary age does not strongly correlate with the number of positive axillary nodes.
 
 
-9. **Distribution plot:** 
-   
-   
-   
-# Multivariate Analysis:
+9. **Distribution plot:** A distribution plot, or probability density function (PDF) plot, is a useful visualization that shows how data points are spread across a range of values. It helps analysts see the underlying distribution, which can inform decisions about statistical modeling or hypothesis testing.
+
+    **Analysis:** The plot visualizes the distribution of age differentiated by survival status. The plot indicates that the age distribution of deceased individuals skews slightly older compared to those who survived, with both groups peaking between approximately 50 and 60 years old. The density is higher in the older ranges 60-80 and lower in the younger age ranges 20-40. This suggests that older individuals in this dataset have a higher likelihood of not surviving while younger individuals have a higher likelyhood of survival. 
+
+--- Distribution Plot image ----
+    
+10. **Contour Plot:** The contour plot visualizes the relationship between Age and Year of Operation, displaying the density distribution of data points accross these two variables. 
+
+    **Analysis:** The plot shows a higher concentration of data points in the age range of approximately 30 to 70 years and the year of operation ranges of 1960-1968 suggesting that most of the operations occured within this time frame and age groups. 
+
+   --- Contour plot Image ---
+
 
 # Key Findings and Insights:
 
 # Limitations and Considerations:
 
 # Conclusion:
+In Exploratory Data Analysis (EDA) of the breast cancer survival prediction dataset, our primary objective was to uncover patterns, identify anomalies, and extract insights that could influence survival outcomes. By utilizing various EDA techniques and tools such as Python and the pandas library, we successfully gained a clearer understanding of the dataset. Descriptive statistics and visualizations revealed key trends, identified outliers, and highlighted potential factors impacting survival rates.This EDA phase has not only provided valuable insights but also set the stage for further modeling and hypothesis testing, with the aim of developing an effective prediction model for breast cancer survival.
 
 
 
