@@ -1,6 +1,6 @@
 # Exploratory Data Analysis - Breast Cancer
 
-## Synthetic Breast Cancer Survival Data
+## Synthetic Breast Cancer Survival Prediction
 
 ## Table of Contents  
 #### [1.Project Introduction](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#project-introduction)  
