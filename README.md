@@ -10,7 +10,7 @@
 - [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)\
        - [1.Box Plots](#1box-plots)\
        - [2.Z-Scores](#2z-scores)\
-       - [3.IQR (Interquartile Range)](#3iqr--interquartile-range-)
+       - [3.IQR-Interquartile Range](#3iqr-interquartile-range)
 - [Data Visualization](#data-visualization)
 - [Univariate Analysis:](#univariate-analysis-)
 - [Bivariate and Multivariate Analysis](#bivariate-and-multivariate-analysis)
@@ -88,7 +88,7 @@ In this dataset, the methods used are box plots, z-scores, or the IQR (Interquar
 
    
 
-   #### 3.IQR (Interquartile Range)
+   #### 3.IQR-Interquartile Range
 Outliers are data points that fall below the lower bound or above the upper bound.
 Lower Bound: Q1 - 1.5 * IQR
 Upper Bound: Q3 + 1.5 * IQR
