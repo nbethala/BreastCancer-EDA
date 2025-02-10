@@ -2,6 +2,7 @@
 
 ## Synthetic Breast Cancer Survival Prediction
 
+
 ## Table of Contents  
 
 - [Project Introduction](#project-introduction)
@@ -14,24 +15,6 @@
 - [Univariate Analysis:](#univariate-analysis-)
 - [Bivariate and Multivariate Analysis](#bivariate-and-multivariate-analysis)
 - [Conclusion:](#conclusion-)
-
-
- ####  [1.Project Introduction](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#1project-introduction)  
-
-#### [2.Data Overview](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#data-overview)         
-       
-#### [3.Data Cleaning and Preprocessing](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#data-cleaning-and-preprocessing)
-
-#### [4.Data Visualization](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#data-visualization)
-
-#### [5.Univariate Analysis](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#univariate-analysis)
- 
-#### [6.Bivariate Analysis](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#bivariate-analysis)
- 
-#### [7.Multivariate Analysis](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#multivariate-analysis)
-
-#### [8.Conclusion](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#conclusion)
-
 
 
 # Project Introduction
