@@ -3,7 +3,7 @@
 ## Synthetic Breast Cancer Survival Prediction
 
 ## Table of Contents  
-#### [1.Project Introduction](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#project-introduction)  
+ ####  [1.Project Introduction](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#1project-introduction)  
 
 #### [2.Data Overview](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#data-overview)         
        
