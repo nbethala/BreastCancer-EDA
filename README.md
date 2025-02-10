@@ -14,7 +14,7 @@
  [Data Visualization](#data-visualization)\
  [Univariate Analysis:](#univariate-analysis-)\
  [Bivariate and Multivariate Analysis](#bivariate-and-multivariate-analysis)\
- [Conclusion:](#conclusion-)
+ [Conclusion](#conclusion-)
 
 
 # Project Introduction
@@ -257,7 +257,7 @@ Below is a breakdown of each of the methods to analyze the dataset:
 
    
 
-# Conclusion:
+# Conclusion
 In Exploratory Data Analysis (EDA) of the breast cancer survival prediction dataset, our primary objective was to uncover patterns, identify anomalies, and extract insights that could influence survival outcomes. By utilizing various EDA techniques and tools such as Python and the pandas library, we successfully gained a clearer understanding of the dataset. Descriptive statistics and visualizations revealed key trends, identified outliers, and highlighted potential factors impacting survival rates.This EDA phase has not only provided valuable insights but also set the stage for further modeling and hypothesis testing, with the aim of developing an effective prediction model for breast cancer survival.
 
 
