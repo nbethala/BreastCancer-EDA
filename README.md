@@ -3,6 +3,19 @@
 ## Synthetic Breast Cancer Survival Prediction
 
 ## Table of Contents  
+
+- [Project Introduction](#project-introduction)
+- [Data Overview](#data-overview)
+- [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
+      - [1.Box Plots](#1box-plots)
+      - [2.Z-Scores](#2z-scores)
+      - [3.IQR (Interquartile Range)](#3iqr--interquartile-range-)
+- [Data Visualization](#data-visualization)
+- [Univariate Analysis:](#univariate-analysis-)
+- [Bivariate and Multivariate Analysis](#bivariate-and-multivariate-analysis)
+- [Conclusion:](#conclusion-)
+
+
  ####  [1.Project Introduction](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#1project-introduction)  
 
 #### [2.Data Overview](https://github.com/nbethala/BreastCancer-EDA/edit/main/README.md#data-overview)         
