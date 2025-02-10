@@ -33,16 +33,9 @@ The dataset includes a variety of features such as the patient's age at diagnosi
      The data used in this project is sourced from a synthetic breast cancer survival dataset from Kaggle. While this dataset is synthetic, it is 
     constructed to closely resemble real-world data and is frequently used in various studies to explore survival prediction 
     techniques.
+   
  - **Number of Observations:**
      The dataset contains 2000 observations and 10 features
-
-   |index|Patient\_ID|Age|Marital\_Status|Year of Operation|Positive\_Axillary\_Nodes|Tumor\_Size|Radiation\_Therapy|Chemotherapy|Hormone\_Therapy|Survival\_Status| 
-|---|---|---|---|---|---|---|---|---|---|---|
-|0|eca1411e|36|Married|1959|3|1\.7|Yes|Yes|No|2|
-|1|63e3301c|39|Married|1966|0|1\.6|Yes|No|No|2|
-|2|01647916|71|Single|1964|3|3\.1|No|No|No|2|
-|3|07e33840|50|Married|1960|0|3\.0|Yes|No|Yes|1|
-|4|ed75da3f|44|Married|1965|4|2\.6|Yes|No|No|1|
 
  - **Features:**
      The dataset contains a variety of features, each categorized into different data types, including categorical and numerical variables.
