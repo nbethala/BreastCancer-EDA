@@ -32,6 +32,7 @@ The dataset includes a variety of features such as the patient's age at diagnosi
    
  - **Number of Observations:**
      The dataset contains 2000 observations and 10 features
+   
 
  - **Features:**
      The dataset contains a variety of features, each categorized into different data types, including categorical and numerical variables.
@@ -96,7 +97,7 @@ Upper Bound: Q3 + 1.5 * IQR
 
 # Data Visualization
 
-# Univariate Analysis:
+# Univariate Analysis
  Univariate analysis focuses on the examination of a single variable at a time. It's an essential part of Exploratory Data Analysis 
  (EDA), as it allows to summarize, understand, and explore the underlying characteristics and patterns of individual variables. This 
   helps in identifying important characteristics, distributions, and potential issues such as outliers or skewness. 
