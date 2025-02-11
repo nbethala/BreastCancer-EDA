@@ -12,7 +12,7 @@
         [2.Z-Scores](#2z-scores)\
         [3.IQR-Interquartile Range](#3iqr-interquartile-range)\
  [Data Visualization](#data-visualization)\
- [Univariate Analysis](#univariate-analysis-)\
+ [Univariate Analysis](#univariate-analysis)\
  [Bivariate and Multivariate Analysis](#bivariate-and-multivariate-analysis)\
  [Conclusion](#conclusion-)
 
