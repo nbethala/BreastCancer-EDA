@@ -34,6 +34,19 @@ The dataset includes a variety of features such as the patient's age at diagnosi
      The dataset contains 2000 observations and 10 features
    
 
+| Column               	   | Non-Null Count 	| Dtype   	|
+|-------------------------	|----------------	|---------	|
+| Patient_ID              	| 2000 non-null  	| object  	|
+| Age                     	| 2000 non-null  	| int64   	|
+| Marital_Status          	| 2000 non-null  	| object  	|
+| Year of Operation       	| 2000 non-null  	| int64   	|
+| Positive_Axillary_Nodes 	| 2000 non-null  	| int64   	|
+| Tumor_Size              	| 2000 non-null  	| float64 	|
+| Radiation_Therapy       	| 2000 non-null  	| object  	|
+| Chemotherapy            	| 2000 non-null  	| object  	|
+| Hormone_Therapy         	| 2000 non-null  	| object  	|
+| Survival_Status          | 2000 non-null   | int64    |
+
  - **Features:**
      The dataset contains a variety of features, each categorized into different data types, including categorical and numerical variables.
    
