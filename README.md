@@ -14,7 +14,7 @@
  [Data Visualization](#data-visualization)\
  [Univariate Analysis](#univariate-analysis)\
  [Bivariate and Multivariate Analysis](#bivariate-and-multivariate-analysis)\
- [Conclusion](#conclusion-)
+ [Conclusion](#conclusion)
 
 
 # Project Introduction
@@ -85,7 +85,21 @@ In this dataset, the methods used are box plots, z-scores, or the IQR (Interquar
 
 
    #### 2.Z-Scores
-   Outliers are typically defined as data points with a Z-score greater than 3 or less than -3, although this threshold can vary depending on the context.
+   Outliers are typically defined as data points with a Z-score greater than 3 or less than -3, although this threshold can vary 
+   depending on the context.
+
+
+   | Age       	| Year of Operation 	| Positive_Axillary_Nodes 	| Tumor_Size 	| Survival_Status 	|
+|-----------	|-------------------	|-------------------------	|------------	|-----------------	|
+| -1.356779 	| -1.311378         	| -0.640764               	| -0.805300  	| 0.982159        	|
+| -1.162528 	| 0.755179          	| -0.929094               	| -0.880979  	| 0.982159        	|
+| 0.909484  	| 0.164734          	| -0.640764               	| 0.254206   	| 0.982159        	|
+| -0.450274 	| -1.016156         	| -0.929094               	| 0.178527   	| -1.018165       	|
+| -0.838776 	| 0.459957          	| -0.544654               	| -0.124189  	| -1.018165       	|
+| 0.261980  	| 1.050402          	| 2.242530                	| 2.242530   	| 0.982159        	|
+| 1.345624  	| 2.050311          	| -0.578263               	| 3.203629   	| 0.982159        	|
+| 0.456231  	| -0.720933         	| 3.203629                	| -0.426905  	| 0.982159        	|
+| -1.311378 	| 3.972507          	| -0.426905               	| 2.242530   	| 0.982159        	|
 
    
 
